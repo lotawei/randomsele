@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED44B1231D8998EC000E2B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B1221D8998EC000E2B45 /* AppDelegate.swift */; };
+		ED44B1251D8998ED000E2B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B1241D8998EC000E2B45 /* ViewController.swift */; };
+		ED44B1281D8998ED000E2B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B1261D8998ED000E2B45 /* Main.storyboard */; };
+		ED44B12A1D8998ED000E2B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED44B1291D8998ED000E2B45 /* Assets.xcassets */; };
+		ED44B12D1D8998ED000E2B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B12B1D8998ED000E2B45 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖模块开发.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44B1221D8998EC000E2B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED44B1241D8998EC000E2B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED44B1271D8998ED000E2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED44B1291D8998ED000E2B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED44B12C1D8998ED000E2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED44B12E1D8998ED000E2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED44B11C1D8998EC000E2B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED44B1161D8998EC000E2B45 = {
+			isa = PBXGroup;
+			children = (
+				ED44B1211D8998EC000E2B45 /* 抽奖模块开发 */,
+				ED44B1201D8998EC000E2B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED44B1201D8998EC000E2B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED44B1211D8998EC000E2B45 /* 抽奖模块开发 */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B1221D8998EC000E2B45 /* AppDelegate.swift */,
+				ED44B1241D8998EC000E2B45 /* ViewController.swift */,
+				ED44B1261D8998ED000E2B45 /* Main.storyboard */,
+				ED44B1291D8998ED000E2B45 /* Assets.xcassets */,
+				ED44B12B1D8998ED000E2B45 /* LaunchScreen.storyboard */,
+				ED44B12E1D8998ED000E2B45 /* Info.plist */,
+			);
+			path = "抽奖模块开发";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED44B11E1D8998EC000E2B45 /* 抽奖模块开发 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "抽奖模块开发" */;
+			buildPhases = (
+				ED44B11B1D8998EC000E2B45 /* Sources */,
+				ED44B11C1D8998EC000E2B45 /* Frameworks */,
+				ED44B11D1D8998EC000E2B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抽奖模块开发";
+			productName = "抽奖模块开发";
+			productReference = ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED44B1171D8998EC000E2B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lotawei;
+				TargetAttributes = {
+					ED44B11E1D8998EC000E2B45 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "抽奖模块开发" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED44B1161D8998EC000E2B45;
+			productRefGroup = ED44B1201D8998EC000E2B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED44B11E1D8998EC000E2B45 /* 抽奖模块开发 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED44B11D1D8998EC000E2B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B12D1D8998ED000E2B45 /* LaunchScreen.storyboard in Resources */,
+				ED44B12A1D8998ED000E2B45 /* Assets.xcassets in Resources */,
+				ED44B1281D8998ED000E2B45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED44B11B1D8998EC000E2B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B1251D8998ED000E2B45 /* ViewController.swift in Sources */,
+				ED44B1231D8998EC000E2B45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED44B1261D8998ED000E2B45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44B1271D8998ED000E2B45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED44B12B1D8998ED000E2B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44B12C1D8998ED000E2B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED44B12F1D8998ED000E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED44B1301D8998ED000E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED44B1321D8998ED000E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "抽奖模块开发/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lw.cn.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED44B1331D8998ED000E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "抽奖模块开发/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lw.cn.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "抽奖模块开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B12F1D8998ED000E2B45 /* Debug */,
+				ED44B1301D8998ED000E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "抽奖模块开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B1321D8998ED000E2B45 /* Debug */,
+				ED44B1331D8998ED000E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED44B1171D8998EC000E2B45 /* Project object */;
+}
