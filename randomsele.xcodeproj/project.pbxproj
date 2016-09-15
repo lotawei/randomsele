@@ -12,16 +12,49 @@
 		ED44B1281D8998ED000E2B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B1261D8998ED000E2B45 /* Main.storyboard */; };
 		ED44B12A1D8998ED000E2B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED44B1291D8998ED000E2B45 /* Assets.xcassets */; };
 		ED44B12D1D8998ED000E2B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B12B1D8998ED000E2B45 /* LaunchScreen.storyboard */; };
+		ED44B1371D89993B000E2B45 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED44B1361D89993B000E2B45 /* UIView+SDAutoLayout.m */; };
+		ED44B1391D89997B000E2B45 /* RandombounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B1381D89997B000E2B45 /* RandombounceView.swift */; };
+		ED44B13C1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = ED44B13B1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		ED44B13E1D89A8A1000E2B45 /* ItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B13D1D89A8A1000E2B45 /* ItemButton.swift */; };
+		ED808B0E1D8A48EB003C7DF6 /* img7.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B0D1D8A48EB003C7DF6 /* img7.png */; };
+		ED808B101D8A48F1003C7DF6 /* img6.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B0F1D8A48F1003C7DF6 /* img6.png */; };
+		ED808B161D8A4919003C7DF6 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B151D8A4919003C7DF6 /* img4.png */; };
+		ED808B181D8A492B003C7DF6 /* img0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B171D8A492B003C7DF6 /* img0.png */; };
+		ED808B1A1D8A4934003C7DF6 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B191D8A4934003C7DF6 /* img2.png */; };
+		ED808B1C1D8A4945003C7DF6 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B1B1D8A4945003C7DF6 /* img1.png */; };
+		ED808B1E1D8A49E8003C7DF6 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B1D1D8A49E8003C7DF6 /* 0.png */; };
+		ED808B221D8A4A59003C7DF6 /* img8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B211D8A4A59003C7DF6 /* img8.png */; };
+		ED808B261D8A4B87003C7DF6 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B251D8A4B87003C7DF6 /* img3.png */; };
+		ED808B281D8A4BA8003C7DF6 /* img5.png in Resources */ = {isa = PBXBuildFile; fileRef = ED808B271D8A4BA8003C7DF6 /* img5.png */; };
+		ED808B2B1D8A4DB2003C7DF6 /* 摇一摇.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED808B2A1D8A4DB2003C7DF6 /* 摇一摇.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖模块开发.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44B11F1D8998EC000E2B45 /* randomsele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomsele.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED44B1221D8998EC000E2B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED44B1241D8998EC000E2B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED44B1271D8998ED000E2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED44B1291D8998ED000E2B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED44B12C1D8998ED000E2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED44B12E1D8998ED000E2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44B1351D89993B000E2B45 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		ED44B1361D89993B000E2B45 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		ED44B1381D89997B000E2B45 /* RandombounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandombounceView.swift; sourceTree = "<group>"; };
+		ED44B13A1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		ED44B13B1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		ED44B13D1D89A8A1000E2B45 /* ItemButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemButton.swift; sourceTree = "<group>"; };
+		ED808B0D1D8A48EB003C7DF6 /* img7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img7.png; sourceTree = "<group>"; };
+		ED808B0F1D8A48F1003C7DF6 /* img6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img6.png; sourceTree = "<group>"; };
+		ED808B151D8A4919003C7DF6 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
+		ED808B171D8A492B003C7DF6 /* img0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img0.png; sourceTree = "<group>"; };
+		ED808B191D8A4934003C7DF6 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		ED808B1B1D8A4945003C7DF6 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		ED808B1D1D8A49E8003C7DF6 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		ED808B211D8A4A59003C7DF6 /* img8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img8.png; sourceTree = "<group>"; };
+		ED808B251D8A4B87003C7DF6 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		ED808B271D8A4BA8003C7DF6 /* img5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img5.png; sourceTree = "<group>"; };
+		ED808B291D8A4D0F003C7DF6 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		ED808B2A1D8A4DB2003C7DF6 /* 摇一摇.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "摇一摇.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +71,8 @@
 		ED44B1161D8998EC000E2B45 = {
 			isa = PBXGroup;
 			children = (
-				ED44B1211D8998EC000E2B45 /* 抽奖模块开发 */,
+				ED808B291D8A4D0F003C7DF6 /* bridge.h */,
+				ED44B1211D8998EC000E2B45 /* randomsele */,
 				ED44B1201D8998EC000E2B45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +80,48 @@
 		ED44B1201D8998EC000E2B45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */,
+				ED44B11F1D8998EC000E2B45 /* randomsele.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED44B1211D8998EC000E2B45 /* 抽奖模块开发 */ = {
+		ED44B1211D8998EC000E2B45 /* randomsele */ = {
 			isa = PBXGroup;
 			children = (
+				ED808B2A1D8A4DB2003C7DF6 /* 摇一摇.gif */,
+				ED808B1D1D8A49E8003C7DF6 /* 0.png */,
+				ED808B251D8A4B87003C7DF6 /* img3.png */,
+				ED808B171D8A492B003C7DF6 /* img0.png */,
+				ED808B1B1D8A4945003C7DF6 /* img1.png */,
+				ED808B191D8A4934003C7DF6 /* img2.png */,
+				ED808B151D8A4919003C7DF6 /* img4.png */,
+				ED808B271D8A4BA8003C7DF6 /* img5.png */,
+				ED808B211D8A4A59003C7DF6 /* img8.png */,
+				ED808B0F1D8A48F1003C7DF6 /* img6.png */,
+				ED808B0D1D8A48EB003C7DF6 /* img7.png */,
+				ED44B13A1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.h */,
+				ED44B13B1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.m */,
+				ED44B1351D89993B000E2B45 /* UIView+SDAutoLayout.h */,
+				ED44B1361D89993B000E2B45 /* UIView+SDAutoLayout.m */,
 				ED44B1221D8998EC000E2B45 /* AppDelegate.swift */,
 				ED44B1241D8998EC000E2B45 /* ViewController.swift */,
 				ED44B1261D8998ED000E2B45 /* Main.storyboard */,
 				ED44B1291D8998ED000E2B45 /* Assets.xcassets */,
 				ED44B12B1D8998ED000E2B45 /* LaunchScreen.storyboard */,
 				ED44B12E1D8998ED000E2B45 /* Info.plist */,
+				ED44B1381D89997B000E2B45 /* RandombounceView.swift */,
+				ED44B13D1D89A8A1000E2B45 /* ItemButton.swift */,
 			);
+			name = randomsele;
 			path = "抽奖模块开发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED44B11E1D8998EC000E2B45 /* 抽奖模块开发 */ = {
+		ED44B11E1D8998EC000E2B45 /* randomsele */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "抽奖模块开发" */;
+			buildConfigurationList = ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "randomsele" */;
 			buildPhases = (
 				ED44B11B1D8998EC000E2B45 /* Sources */,
 				ED44B11C1D8998EC000E2B45 /* Frameworks */,
@@ -79,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = "抽奖模块开发";
+			name = randomsele;
 			productName = "抽奖模块开发";
-			productReference = ED44B11F1D8998EC000E2B45 /* 抽奖模块开发.app */;
+			productReference = ED44B11F1D8998EC000E2B45 /* randomsele.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "抽奖模块开发" */;
+			buildConfigurationList = ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "randomsele" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED44B11E1D8998EC000E2B45 /* 抽奖模块开发 */,
+				ED44B11E1D8998EC000E2B45 /* randomsele */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +174,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED808B101D8A48F1003C7DF6 /* img6.png in Resources */,
+				ED808B161D8A4919003C7DF6 /* img4.png in Resources */,
+				ED808B281D8A4BA8003C7DF6 /* img5.png in Resources */,
+				ED808B2B1D8A4DB2003C7DF6 /* 摇一摇.gif in Resources */,
+				ED808B181D8A492B003C7DF6 /* img0.png in Resources */,
+				ED808B221D8A4A59003C7DF6 /* img8.png in Resources */,
 				ED44B12D1D8998ED000E2B45 /* LaunchScreen.storyboard in Resources */,
+				ED808B1A1D8A4934003C7DF6 /* img2.png in Resources */,
+				ED808B1E1D8A49E8003C7DF6 /* 0.png in Resources */,
 				ED44B12A1D8998ED000E2B45 /* Assets.xcassets in Resources */,
+				ED808B261D8A4B87003C7DF6 /* img3.png in Resources */,
 				ED44B1281D8998ED000E2B45 /* Main.storyboard in Resources */,
+				ED808B1C1D8A4945003C7DF6 /* img1.png in Resources */,
+				ED808B0E1D8A48EB003C7DF6 /* img7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED44B13E1D89A8A1000E2B45 /* ItemButton.swift in Sources */,
 				ED44B1251D8998ED000E2B45 /* ViewController.swift in Sources */,
+				ED44B1391D89997B000E2B45 /* RandombounceView.swift in Sources */,
 				ED44B1231D8998EC000E2B45 /* AppDelegate.swift in Sources */,
+				ED44B1371D89993B000E2B45 /* UIView+SDAutoLayout.m in Sources */,
+				ED44B13C1D89A2BB000E2B45 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "抽奖模块开发/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lw.cn.------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = randomsele;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,17 +332,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "抽奖模块开发/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lw.cn.------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = randomsele;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "抽奖模块开发" */ = {
+		ED44B11A1D8998EC000E2B45 /* Build configuration list for PBXProject "randomsele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED44B12F1D8998ED000E2B45 /* Debug */,
@@ -281,13 +353,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "抽奖模块开发" */ = {
+		ED44B1311D8998ED000E2B45 /* Build configuration list for PBXNativeTarget "randomsele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED44B1321D8998ED000E2B45 /* Debug */,
 				ED44B1331D8998ED000E2B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
